@@ -1,0 +1,42 @@
+{
+  "link.title.Community": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "更多资源",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/opensergo/opensergo-specification"
+  },
+  "copyright": {
+    "message": "© 2022 OpenSergo Authors. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.Documentation": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "OpenSergo介绍",
+    "description": "The label of footer link with label=Introduction linking to /docs/what-is-opensergo/intro"
+  },
+  "link.item.label.Quick Start": {
+    "message": "快速开始",
+    "description": "The label of footer link with label=Quick Start linking to /docs/quick-start/quick-start-dashboard"
+  },
+  "link.item.label.Dingtalk Group(34826335)": {
+    "message": "钉钉群(34826335)",
+    "description": "The label of footer link with label=Dingtalk Group(34826335) linking to /docs/community/opensergo-community/#dingtalk"
+  },
+  "link.item.label.WeChat Group(add WeChat Id `zjjxg2018` to join)": {
+    "message": "微信群(添加微信账号`zjjxg2018`来加入)",
+    "description": "The label of footer link with label=WeChat Group(add WeChat Id `zjjxg2018` to join) linking to /docs/community/opensergo-community/#wechat"
+  }
+}

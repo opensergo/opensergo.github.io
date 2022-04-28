@@ -58,3 +58,4 @@ Contributor is an individual who contributes to the Nacos project. The standard 
 | [robberphex](https://github.com/robberphex) | Robert Lu | Alibaba | Maintainer | robert.lyb@alibaba-inc.com |
 | [tonybase](https://github.com/tonybase) | Tony Chen | bilibili | Maintainer | |
 | [GuangmingLuo](https://github.com/GuangmingLuo) | Guangming Luo | ByteDance | Maintainer | |
+| [ralf0131](https://github.com/ralf0131) | Huxing Zhang | Alibaba | Maintainer | |

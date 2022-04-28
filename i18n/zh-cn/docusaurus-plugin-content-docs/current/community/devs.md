@@ -60,3 +60,4 @@ Contributor是对Nacos项目有贡献的个人，标准为：
 | [robberphex](https://github.com/robberphex) | 鲁严波 | 阿里巴巴 | Maintainer | robert.lyb@alibaba-inc.com |
 | [tonybase](https://github.com/tonybase) | 陈志辉 | bilibili | Maintainer | |
 | [GuangmingLuo](https://github.com/GuangmingLuo) | 罗广明 | 字节跳动 | Maintainer | |
+| [ralf0131](https://github.com/ralf0131) | 张乎兴 | Alibaba | Maintainer | |

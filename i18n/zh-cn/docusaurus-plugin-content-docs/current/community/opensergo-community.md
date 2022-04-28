@@ -11,6 +11,7 @@ sidebar_position: 1
 OpenSergo 钉钉群号：34826335
 
 群二维码：
+
 ![](../resources/dingtalk-group.png)
 
 ### 微信群 {#wechat}

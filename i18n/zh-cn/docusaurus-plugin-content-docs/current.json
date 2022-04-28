@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.What is OpenSergo": {
+    "message": "什么是 OpenSergo",
+    "description": "The label for category What is OpenSergo in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Quick Start": {
+    "message": "快速开始",
+    "description": "The label for category Quick Start in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "社区",
+    "description": "The label for category Community in sidebar tutorialSidebar"
+  }
+}

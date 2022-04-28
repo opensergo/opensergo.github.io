@@ -1,6 +1,6 @@
-# Website
+# OpenSergo Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This repos is the source code of [opensergo.io](https://opensergo.io).
 
 ### Installation
 

@@ -41,31 +41,10 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.wechat .wechat-label {
-  color: var(--ifm-footer-link-color);
-  line-height: 2;
-  cursor: pointer;
-}
-.wechat .wechat-img {
-  display: none;
-  position: absolute;
-  width: 100px;
-}
-.wechat:hover .wechat-img {
-  display: block;
-}
-
-
-.dingtalk .dingtalk-label {
-  color: var(--ifm-footer-link-color);
-  line-height: 2;
-  cursor: pointer;
-}
-.dingtalk .dingtalk-img {
-  display: none;
-  position: absolute;
-  width: 100px;
-}
-.dingtalk:hover .dingtalk-img {
-  display: block;
+.navbar .navbar__logo {
+	text-decoration: none;
+	display: flex;
+	width: 125px;
+	justify-content: space-between;
+	align-items: flex-start;
 }

@@ -67,11 +67,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'OpenSergo',
+        //title: 'OpenSergo',
         logo: {
-          alt: 'OpenSergo Logo',
+          alt: 'OpenSergo',
           src: 'img/logo.svg',
-          srcDark: 'img/logo-dark.svg'
+          srcDark: 'img/logo-dark.svg',
         },
         items: [
           {

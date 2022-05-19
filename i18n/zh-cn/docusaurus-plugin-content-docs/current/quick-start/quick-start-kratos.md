@@ -21,13 +21,12 @@ Kratos 的设计理念就是高度的可定制化，用户可以根据自己的�
 			grpcSrv,
 		),
 	)
-	osg, err := opensergo.New(opensergo.WithEndpoint("localhost:9090"))
+	osg, err := opensergo.New(opensergo.WithEndpoint("locahost:9090"))
 	if err != nil {
-		return
+		log.Fatal(err)
 	}
-	err = osg.ReportMetadata(context.Background(), app)
-	if err != nil {
-		return
+	if err = osg.ReportMetadata(context.Background(), app); err != nil {
+		log.Fatal(err)
 	}
 	if err := app.Run(); err != nil {
 		log.Fatal(err)

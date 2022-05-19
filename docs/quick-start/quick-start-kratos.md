@@ -21,7 +21,6 @@ sidebar_position: 2
 Kratos design concept is highly customizable. Users can introduce different implementations according to their own needs. Therefore, when we access OpenSergo, we only need to introduce OpenSergo contrib to report the service information to OpenSergo. The code is as follows:
 ```
 // ...
-
 	app := kratos.New(
 		kratos.Name(Name),
 		kratos.Server(
@@ -40,7 +39,6 @@ Kratos design concept is highly customizable. Users can introduce different impl
 	if err := app.Run(); err != nil {
 		log.Fatal(err)
 	}
-}
 ```
 
 # References

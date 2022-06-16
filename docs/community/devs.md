@@ -19,7 +19,7 @@ Maintainer is an individual who makes significant contributions to the evolution
 
 ### Committer
 
-Committer is an individual with write access to the Nacos repository and includes the following criteria:
+Committer is an individual with write access to the OpenSergo repository and includes the following criteria:
 
 * An individual who can contribute to the issue and PR continuously for a long time.
 * Participate in the maintenance of the issue list and discussion of important features.
@@ -27,7 +27,7 @@ Committer is an individual with write access to the Nacos repository and include
 
 ### Contributor
 
-Contributor is an individual who contributes to the Nacos project. The standard is:
+Contributor is an individual who contributes to the OpenSergo project. The standard is:
 
 * Submitted a PR that is merged.
 

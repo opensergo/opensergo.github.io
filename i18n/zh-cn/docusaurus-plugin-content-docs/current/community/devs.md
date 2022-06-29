@@ -27,7 +27,7 @@ Committer 是具有 OpenSergo 仓库写权限的个人，包含以下的标准�
 
 ### Contributor
 
-Contributor是对Nacos项目有贡献的个人，标准为：
+Contributor是对OpenSergo项目有贡献的个人，标准为：
 
 * 提交过PR并被合并；
 

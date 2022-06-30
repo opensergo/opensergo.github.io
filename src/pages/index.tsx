@@ -78,7 +78,7 @@ function WhatIs() {
         <div className="col">
           <img
             className="image"
-            src={useBaseUrl("img/what-is-opensergo.png")}
+            src={useBaseUrl("img/opensergo-landscape-en.jpg")}
             alt="what is OpenSergo"
           />
         </div>

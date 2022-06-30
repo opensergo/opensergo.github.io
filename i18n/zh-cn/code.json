@@ -1,6 +1,6 @@
 {
   "An open, language-agnostic cloud-native service governance specification": {
-    "message": "OpenSergo是一套开放的、语言无关的、贴近业务语义的云原生服务治理规范。"
+    "message": "OpenSergo 是一套开放、通用的、面向分布式服务架构、覆盖全链路异构化生态的服务治理标准。"
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -229,9 +229,9 @@
     "message": "OpenSergo 是什么?"
   },
   "OpenSergo is an open, language-agnostic cloud-native service governance specification that is close to business semantics.": {
-    "message": "OpenSergo是一套开放的、语言无关的、贴近业务语义的云原生服务治理规范。"
+    "message": "OpenSergo 是一套开放、通用的、面向分布式服务架构、覆盖全链路异构化生态的服务治理标准。"
   },
   "In the scenario of heterogeneous microservice system, DevOps can manage services in different languages and protocols with this unified specification.": {
-    "message": "面向异构微服务体系的场景，让企业能够以一种统一的规范来管理不同语言、不同协议的服务。"
+    "message": "OpenSergo 以统一的一套配置/DSL/协议定义服务治理规则，面向多语言异构化架构，做到全链路生态覆盖。开发者无需关注各框架、语言的差异点，降低了异构化、全链路服务治理管控的复杂度。"
   }
 }

@@ -8,4 +8,4 @@ OpenSergo is an open, language-agnostic cloud-native service governance specific
 
 In the scenario of heterogeneous microservice system, DevOps can manage services in different languages and protocols with this unified specification.
 
-![](../resources/what-is-opensergo.png)
+![](../../static/img/opensergo-landscape-en.jpg)

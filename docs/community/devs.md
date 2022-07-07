@@ -59,3 +59,7 @@ Contributor is an individual who contributes to the OpenSergo project. The stand
 | [tonybase](https://github.com/tonybase) | Tony Chen | bilibili | Maintainer | |
 | [GuangmingLuo](https://github.com/GuangmingLuo) | Guangming Luo | ByteDance | Maintainer | |
 | [ralf0131](https://github.com/ralf0131) | Huxing Zhang | Alibaba | Maintainer | |
+| [duffqiu](https://github.com/duffqiu) | Duff Qiu | Alibaba | Maintainer | |
+| [jialianglinjl](https://github.com/jialianglinjl) | Jialiang Lin | Alibaba | Maintainer | |
+| [sczyh30](https://github.com/sczyh30) | Eric Zhao | Alibaba | Maintainer | |
+| [panxiaojun233](https://github.com/panxiaojun233) | Shengwei Pan | Alibaba | Maintainer | |

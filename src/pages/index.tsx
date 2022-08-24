@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
-          <Translate>An open, language-agnostic cloud-native service governance specification</Translate>
+          <Translate>An open, language-agnostic cloud-native microservice governance specification</Translate>
         </p>
         <div className={styles.buttons}>
           {/* <Link

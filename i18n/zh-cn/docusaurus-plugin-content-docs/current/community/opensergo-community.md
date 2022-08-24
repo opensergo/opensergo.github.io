@@ -18,4 +18,4 @@ OpenSergo 钉钉群号：34826335
 
 OpenSergo 微信群账号，添加如下微信账号，会拉进群
 
-![](../resources/wechat-group.png)
+![](../resources/wechat-group.jpg)

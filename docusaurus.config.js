@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenSergo',
-  tagline: 'An open, language-agnostic cloud-native service governance specification',
+  tagline: 'An open, language-agnostic cloud-native microservice governance specification',
   url: 'https://opensergo.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -18,4 +18,4 @@ Or scan QR Code to join:
 
 OpenSergo WeChat Group(Scan code to request joining)
 
-![](../resources/wechat-group.png)
+![](../resources/wechat-group.jpg)

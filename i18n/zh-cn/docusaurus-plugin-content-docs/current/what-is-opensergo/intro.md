@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 什么是 OpenSergo
 
-OpenSergo 是一套开放通用的、面向云原生服务、覆盖微服务及上下游关联组件的微服务治理标准，并根据标准提供一系列的 API 与 SDK 实现。OpenSergo 项目由阿里巴巴、字节、bilibili 等企业联合发起，社区主导共建与演进。
+OpenSergo 是一套开放通用的、面向云原生服务、覆盖微服务及上下游关联组件的微服务治理标准，并根据标准提供一系列的 API 与 SDK 实现。OpenSergo 项目由阿里巴巴、bilibili、CloudWeGo 等企业与社区联合发起，社区主导共建与演进。
 
 ![highlights](../resources/opensergo-basic-highlights-cn.jpg)
 

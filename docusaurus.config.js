@@ -117,7 +117,7 @@ const config = {
                 to: '/docs/community/opensergo-community/#dingtalk',
               },
               {
-                label:'WeChat Group(add WeChat Id `zjjxg2018` to join)',
+                label:'WeChat Group',
                 to: '/docs/community/opensergo-community/#wechat',
               },
             ],

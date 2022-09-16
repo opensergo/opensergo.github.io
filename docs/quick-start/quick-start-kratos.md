@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Use Opensergo with Kratos
+# Use OpenSergo with Kratos
 
 T.B.D.

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# OpenSergo 快速开始
+# OpenSergo 控制台
 
 这个快速开始手册是帮忙您快速在您的电脑上，下载、安装并使用 OpenSergo Dashboard。
 

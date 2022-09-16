@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # OpenSergo 开发团队
@@ -10,7 +10,7 @@ OpenSergo 社区包含 Maintainer、Committer、Contributor 三种角色，每�
 
 ### Maintainer
 
-Maintainer 是对 OpenSergo项目（包括微服务框架的接入）的演进和发展做出显著贡献的个人。具体包含以下的标准：
+Maintainer 是对 OpenSergo 项目（包括微服务框架的接入）的演进和发展做出显著贡献的个人。具体包含以下的标准：
 
 * 完成多个关键模块或者工程的设计与开发，是项目的核心开发人员；
 * 持续的投入和激情，能够积极参与社区、官网、issue、PR 等项目相关事项的维护；

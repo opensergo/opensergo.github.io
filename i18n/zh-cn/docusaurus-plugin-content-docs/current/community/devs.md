@@ -55,6 +55,8 @@ Contributor 是对 OpenSergo 项目有贡献的个人，标准为：
 
 ## 开发团队
 
+OpenSergo Maintainers:
+
 | GitHub 账号 | 名字 | 组织 | 角色 | 邮箱 |
 | --- | ----------- | --- | --- | --- |
 | [robberphex](https://github.com/robberphex) | 鲁严波 | 阿里巴巴 | Maintainer | robert.lyb@alibaba-inc.com |
@@ -65,3 +67,10 @@ Contributor 是对 OpenSergo 项目有贡献的个人，标准为：
 | [jialianglinjl](https://github.com/jialianglinjl) | 林佳梁 | Alibaba | Maintainer | |
 | [sczyh30](https://github.com/sczyh30) | 赵奕豪 | Alibaba | Maintainer | |
 | [panxiaojun233](https://github.com/panxiaojun233) | 泮圣伟 | Alibaba | Maintainer | |
+| [mlycore](https://github.com/mlycore) | 苗立尧 | SphereEx | Maintainer | |
+
+OpenSergo Committers:
+
+| GitHub 账号 | 名字 | 组织 | 角色 | 邮箱 |
+| --- | ----------- | --- | --- | --- |
+| [jnan806](https://github.com/jnan806) | 贾江南 | 中国电信集团 | Committer |  |

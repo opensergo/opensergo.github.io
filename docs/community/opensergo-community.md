@@ -16,6 +16,10 @@ Or scan QR Code to join:
 
 ## WeChat Group {#wechat}
 
+OpenSergo WeChat official account (微信公众号):
+
+![](../resources/wechat-official-account.jpg)
+
 OpenSergo WeChat Group(Scan code to request joining)
 
 ![](../resources/wechat-group.jpg)

@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 ---
 
-# OpenSergo Quick Start
+# OpenSergo Dashboard UI
 
-This topic is about how to set up and use OpenSergo Dashboard.
+This topic is about how to set up and use OpenSergo Dashboard UI.
 
 ## 1. Prerequisite
 

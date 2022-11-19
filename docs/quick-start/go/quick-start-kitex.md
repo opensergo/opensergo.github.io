@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Use OpenSergo with Kitex
+# Use OpenSergo with CloudWeGo Kitex
 
 ## Kitex Overview
 

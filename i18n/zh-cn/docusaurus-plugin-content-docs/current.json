@@ -11,6 +11,10 @@
     "message": "快速开始",
     "description": "The label for category Quick Start in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Service Mesh": {
+    "message": "多语言 Mesh 生态",
+    "description": "The label for category Service Mesh CN in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Community": {
     "message": "社区",
     "description": "The label for category Community in sidebar tutorialSidebar"

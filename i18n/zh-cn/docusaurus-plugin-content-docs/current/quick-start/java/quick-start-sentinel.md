@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # 通过 Sentinel 快速接入 OpenSergo

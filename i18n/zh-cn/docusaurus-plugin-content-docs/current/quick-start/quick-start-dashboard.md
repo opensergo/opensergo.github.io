@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 ---
 
-# OpenSergo 控制台
+# OpenSergo 控制台 UI
 
-这个快速开始手册是帮忙您快速在您的电脑上，下载、安装并使用 OpenSergo Dashboard。
+这个快速开始手册是帮忙您快速在您的电脑上，下载、安装并使用 OpenSergo Dashboard（UI 控制台）。
 
 ## 1. 环境准备
 
@@ -21,7 +21,7 @@ OpenSergo Dashbaord 依赖 Java 环境来运行。如果您是从代码开始构
 ### 从 Github 上下载源码方式
 
 1. 下载代码：`git clone https://github.com/opensergo/opensergo-dashboard.git`
-2. 在`opensergo-dashboard-server/src/main/resources/application.yaml`中指定mysql的地址
+2. 在 `opensergo-dashboard-server/src/main/resources/application.yaml`中指定mysql的地址
     * mysql的表结构见 [schema.sql](https://github.com/opensergo/opensergo-dashboard/blob/main/opensergo-dashboard-server/src/main/resources/schema.sql)
 3. 构建
     * `mvn clean package -Dmaven.test.skip=true`

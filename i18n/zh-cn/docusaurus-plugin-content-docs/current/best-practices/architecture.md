@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 项目结构
+# OpenSergo 架构
 
 OpenSergo 主要包含以下几部分：
 

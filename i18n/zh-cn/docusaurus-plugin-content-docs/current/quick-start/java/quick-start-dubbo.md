@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 # Dubbo 快速接入 OpenSergo

@@ -8,7 +8,6 @@ tags: []
 本次 OpenSergo 社区双周会（2022/11/09）的议程：
 
 * 同步上一周期的进展，包括 spec 建设、Control Plane && SDK 进展、社区生态接入等进展
-* 宣布 Committer 晋升动态
 * 社区分享与讨论，包括 Spring Cloud Alibaba 流量染色 Demo 演示、OpenSergo 控制面设计优化讨论、开源贡献小组任务梳理与讲解等
 
 本次 OpenSergo 社区双周会纪要：

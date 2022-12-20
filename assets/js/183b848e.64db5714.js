@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopensergo_github_io=self.webpackChunkopensergo_github_io||[]).push([[6737],{4469:function(e){e.exports=JSON.parse('{"plugin":{"name":"docusaurus-plugin-content-blog","id":"default"}}')}}]);

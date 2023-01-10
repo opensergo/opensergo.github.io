@@ -52,6 +52,12 @@ export default function Home(): JSX.Element {
         <HomepageFeatures />
       </main>
 
+      <div className="msemap-container">
+        <h3 style={{ fontSize: "2rem", fontWeight: 700, textAlign: "center" }}>
+          微服务全景图
+        </h3>
+        <div id="mse-arc-container"></div>
+      </div>
     </Layout>
   );
 }

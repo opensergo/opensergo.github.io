@@ -196,6 +196,16 @@ const config = {
           },
       ],
     ],
+    scripts: [
+      {
+        src: '//g.alicdn.com/mamba/assets/0.0.7/mse-arc-ui.min.js',
+      },
+    ],
+    stylesheets: [
+      {
+        href: '//g.alicdn.com/mamba/assets/0.0.7/mse-arc-ui.min.css',
+      },
+    ],
 };
 
 module.exports = config;

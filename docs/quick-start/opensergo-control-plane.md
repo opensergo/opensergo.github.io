@@ -10,13 +10,36 @@ sidebar_position: 1
 
 ## Install on your Kubernetes cluster
 
-Deploy the OpenSergo control plane:
+Install `OpenSergo Control Plane` contains 2 steps:
+- Init OpenSergo in `Kubernetes cluster`
+- Start the `OpenSergo Control Plane`
 
-```shell
-# Create opensergo-system namespace
+The above steps can be performed on the Kubernetes node or on the non-Kubernetes node.  
+If you performance them on a non-Kubernetes node, you need to configure `kubeconfig` on the operating computer to access the Kubernetes cluster.  
+
+
+### Install by scripts online
+
+We provide some scripts to install OpenSergo Control Plane:
+
+``` shell
+ # NOTE：exec above command，will download the resources in directory `$HOME/opensergo/opensergo-control-plane`
+
+ # 1. Install base resources of OpenSergo (Namespce, CRD, RBAC ...)
+ wget --no-check-certificate https://raw.githubusercontent.com/opensergo/opensergo-control-plane/main/cmd/init/init.sh && chmod +x init.sh && ./init.sh
+
+ # 2. Deploy workload of OpenSergo Control Plane 
+ wget --no-check-certificate https://raw.githubusercontent.com/opensergo/opensergo-control-plane/main/cmd/install/k8s/deploy.sh && chmod +x deploy.sh && ./deploy.sh
+```
+
+
+### Install by YAML
+In advance, we need to download [`opensergo-control-plane`](https://github.com/opensergo/opensergo.github.io), and then execute kubectl commands to install OpenSergo Control Plane.
+``` shell
+# Create Namespace for OpenSergo 
 kubectl apply -f opensergo-control-plane/k8s/namespace.yaml
 
-# Install OpenSergo CRDs
+# Install OpenSergo spec CRDs
 kubectl apply -f opensergo-control-plane/k8s/crd/bases/fault-tolerance.opensergo.io_circuitbreakerstrategies.yaml
 kubectl apply -f opensergo-control-plane/k8s/crd/bases/fault-tolerance.opensergo.io_concurrencylimitstrategies.yaml
 kubectl apply -f opensergo-control-plane/k8s/crd/bases/fault-tolerance.opensergo.io_faulttolerancerules.yaml
@@ -24,15 +47,17 @@ kubectl apply -f opensergo-control-plane/k8s/crd/bases/fault-tolerance.opensergo
 kubectl apply -f opensergo-control-plane/k8s/crd/bases/fault-tolerance.opensergo.io_throttlingstrategies.yaml
 kubectl apply -f opensergo-control-plane/k8s/crd/bases/traffic.opensergo.io_trafficerouters.yaml
 
-# Apply RBAC
+# Install RBAC for OpenSergo Control Plane
 kubectl apply -f opensergo-control-plane/k8s/rbac/rbac.yaml
 
-# Install OpenSergo control plane workload
+# Deploy workload for OpenSergo Control Plane
 kubectl apply -f opensergo-control-plane/k8s/workload/opensergo-control-plane.yaml
 ```
 
-> NOTE: the community is working on Helm chart of the control plane.
+### Attentions
+- `ClusterIP` is the default mode of Service, you can change mode to `NodePort` or `LoadBalancer` to expose this Service  
+  - **Start by script online**, file to modify: `$HOME/opensergo/opensergo-control-plane/k8s/workload/opensergo-control-plane.yaml`
+  - **Start by YAML**, file to modify: `opensergo-control-plane/k8s/workload/opensergo-control-plane.yaml`
+- default value of `replicas` in Deployment is 1, do not modify it. Multiple-replicas mode is still in developing.
 
-## Configuration
-
-(TBD...)
+*We are improving start mode for OpenSergo control plane, and will provide Helm Chart deployment package in the future.*

@@ -21,7 +21,7 @@ Sentinel 社区提供对接 OpenSergo spec 的动态数据源模块 `sentinel-da
 </dependency>
 ```
 
-然后在项目合适的位置（如 Spring 初始化 hook 或 Sentinel `InitFunc` 中）中创建并注册 Sentinel OpenSergo 数据源。在应用启动前，确保 OpenSergo 控制面及 CRD 已经部署在 Kubernetes 集群中。
+然后在项目合适的位置（如 Spring 初始化 hook 或 Sentinel `InitFunc` 中）中创建并注册 Sentinel OpenSergo 数据源。在应用启动前，确保 OpenSergo 控制面及 CRD 已经部署在 Kubernetes 集群中，可以参考[控制面快速部署文档](../opensergo-control-plane.md)。
 
 ```java
 // 传入 OpenSergo Control Plane 的 endpoint，以及希望监听的应用名.

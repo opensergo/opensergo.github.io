@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://opensergo.io/blog</id>
     <title>OpenSergo Blog</title>
-    <updated>2022-12-07T00:00:00.000Z</updated>
+    <updated>2023-01-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://opensergo.io/blog"/>
     <subtitle>OpenSergo Blog</subtitle>
     <icon>https://opensergo.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Summary of the OpenSergo community meeting (Jan 11th, 2023)]]></title>
+        <id>opensergo-community-meeting-20230111</id>
+        <link href="https://opensergo.io/blog/opensergo-community-meeting-20230111"/>
+        <updated>2023-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary of the OpenSergo && Sentinel community biweekly meeting (Jan 11th, 2023):]]></summary>
+        <content type="html"><![CDATA[<p>Summary of the OpenSergo &amp;&amp; Sentinel community biweekly meeting (Jan 11th, 2023):</p><ol><li>Our community member shared ideas about <a href="https://github.com/opensergo/opensergo-control-plane/issues/46" target="_blank" rel="noopener noreferrer">extension mechanism design of OpenSergo universal control plane</a>.</li><li>Our community member shared ideas about <a href="https://github.com/opensergo/opensergo-specification/issues/62" target="_blank" rel="noopener noreferrer">event governance</a>.</li></ol><p>GitHub discussions: <a href="https://github.com/opensergo/opensergo-specification/discussions/67" target="_blank" rel="noopener noreferrer">https://github.com/opensergo/opensergo-specification/discussions/67</a></p>]]></content>
+        <author>
+            <name>Eric Zhao</name>
+            <uri>https://github.com/sczyh30</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Summary of the OpenSergo community meeting (Dec 7th, 2022)]]></title>
         <id>opensergo-community-meeting-20221207</id>

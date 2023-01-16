@@ -4,10 +4,18 @@
         <title>OpenSergo Blog</title>
         <link>https://opensergo.io/blog</link>
         <description>OpenSergo Blog</description>
-        <lastBuildDate>Wed, 07 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Summary of the OpenSergo community meeting (Jan 11th, 2023)]]></title>
+            <link>https://opensergo.io/blog/opensergo-community-meeting-20230111</link>
+            <guid>opensergo-community-meeting-20230111</guid>
+            <pubDate>Wed, 11 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Summary of the OpenSergo && Sentinel community biweekly meeting (Jan 11th, 2023):]]></description>
+            <content:encoded><![CDATA[<p>Summary of the OpenSergo &amp;&amp; Sentinel community biweekly meeting (Jan 11th, 2023):</p><ol><li>Our community member shared ideas about <a href="https://github.com/opensergo/opensergo-control-plane/issues/46" target="_blank" rel="noopener noreferrer">extension mechanism design of OpenSergo universal control plane</a>.</li><li>Our community member shared ideas about <a href="https://github.com/opensergo/opensergo-specification/issues/62" target="_blank" rel="noopener noreferrer">event governance</a>.</li></ol><p>GitHub discussions: <a href="https://github.com/opensergo/opensergo-specification/discussions/67" target="_blank" rel="noopener noreferrer">https://github.com/opensergo/opensergo-specification/discussions/67</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Summary of the OpenSergo community meeting (Dec 7th, 2022)]]></title>
             <link>https://opensergo.io/blog/opensergo-community-meeting-20221207</link>

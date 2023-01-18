@@ -40,6 +40,15 @@ OpenSergo 控制平面目前暂时仅支持 Kubernetes 环境，后续社区也�
 
 OpenSergo 控制平面作为 OpenSergo 服务治理 CRD 统一管控与下发组件，其设计目标是足够简单、轻量、组件化、可扩展。基于以上考虑，我们并未直接基于 Istio 控制面扩展。未来 OpenSergo 控制平面本身可作为独立模块，作为插件嵌入到 Istio 控制面中。
 
+### OpnSergo 控制平面 与 OpenSergo SDK 连接不上？
+
+OpnSergo 控制平面在 Kubernetes 集群中成功部署，OpenSergo SDK 或集成了 OpenSergo SDK 的框架如果无法与 OpenSergo 控制面进行通讯，可能存在如下原因：
+
+- 原因一: OpenSergo 控制平面 的 Service 未暴露:  
+  OpenSergo 控制平面在 Kubernetes 中部署时，Service 默认类型 `ClusterIP`, 如果 OpenSergo SDK 不是在 Kubernetes 集群的节点上时，需要将 OpenSergo 控制面的 Service 向外暴露，将 Service 类型 改为 `LoadBalancer` 或 `NodePort` 即可。  
+- 其他原因:  
+  如果您在使用过程中有遇到其他情况，欢迎在 [OpenSergo](https://github.com/opensergo) 提交 ISSUE，描述重现步骤，社区会及时回复，并且之后会更新到此处
+
 ## 框架生态问题
 
 ### 目前各个框架组件对接 OpenSergo 的状态是怎样的？

@@ -51,3 +51,4 @@ spring.cloud.opensergo.endpoint={opensergo-control-plane}:10246
 
 在应用启动前，确保 OpenSergo 控制面及 CRD 已经部署在 Kubernetes 集群中，可以参考[控制面快速部署文档](../opensergo-control-plane.md)。启动应用后，即可编写 [TrafficRouter](https://github.com/opensergo/opensergo-specification/blob/main/specification/zh-Hans/traffic-routing.md) 等 CR YAML 来动态配置流量路由规则，通过 kubectl apply 到集群中即可生效。
 
+Spring Cloud Alibaba 社区提供了[流量路由接入 OpenSergo 控制面的 demo](https://github.com/alibaba/spring-cloud-alibaba/blob/2.2.x/spring-cloud-alibaba-examples/governance-example/label-routing-example/readme-zh.md#集成opensergo)，可供参考。

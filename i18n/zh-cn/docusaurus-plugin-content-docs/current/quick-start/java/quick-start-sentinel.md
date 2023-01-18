@@ -36,4 +36,4 @@ FlowRuleManager.register2Property(openSergo.subscribeFlowRules());
 
 启动应用后，即可编写 [FaultToleranceRule、RateLimitStrategy 等 CR YAML](https://github.com/opensergo/opensergo-specification/blob/main/specification/zh-Hans/fault-tolerance.md) 来动态配置流控容错规则，通过 kubectl apply 到集群中即可生效。
 
-目前 Sentinel OpenSergo 数据源还在演进中，欢迎社区一起 review 相关实现：https://github.com/alibaba/Sentinel/pull/2842
+Sentinel 社区提供了一个 [Spring Boot 应用接入 OpenSergo 数据源的 demo](https://github.com/alibaba/Sentinel/blob/master/sentinel-demo/sentinel-demo-opensergo-datasource/README.zh-cn.md)，可作参考。

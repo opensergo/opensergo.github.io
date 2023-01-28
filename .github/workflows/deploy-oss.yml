@@ -3,7 +3,7 @@ name: opensergo.io deploy
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   Build-Deploy:
     runs-on: ubuntu-18.04

@@ -48,12 +48,13 @@ tags: [SpringCloud,Traffic]
 ## 通过 OpenSergo 探索治理能力的标准化
 
 OpenSergo 是开放通用的，覆盖微服务及上下游关联组件的微服务治理项目，是阿里巴巴微服务治理的最佳实践。OpenSergo 从微服务的角度出发，涵盖**流量治理、服务容错、服务元信息治理、安全治理**等关键治理领域，提供一系列的治理能力与标准、生态适配与最佳实践，支持 Java, Go, Rust 等多语言生态。
-![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2023/png/198743/1674961598478-02524d28-aefd-4134-bbd7-7f38c9823135.png)
+
+![image](https://user-images.githubusercontent.com/43985911/216290765-1c857f59-a1b3-483c-b688-24fc75957d23.png)
 
 OpenSergo 控制平面 (Control Plane) 作为 OpenSergo CRD 的统一管控组件，承载服务治理配置转换与下发的职责。
 1. 安装K8s环境，请参考K8s的[安装工具](https://kubernetes.io/zh-cn/docs/tasks/tools/)小节
 2. 在K8s上安装并启用 OpenSergo Control Plane，请参考 OpenSergo 官方提供的 [OpenSergo 控制面安装文档](https://opensergo.io/zh-cn/docs/quick-start/opensergo-control-plane/)
-   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2023/png/198743/1674961583428-18176c49-3f83-4152-8394-82c50c81c7aa.png)
+   ![image](https://user-images.githubusercontent.com/43985911/216290938-9c63758e-54e9-442a-8e63-4728a4711ee6.png)
 3. Spring Cloud Alibaba 应用集成 OpenSergo
    **注意 本章节只是为了便于您理解接入方式，本[示例代码](https://github.com/alibaba/spring-cloud-alibaba/tree/2.2.x/spring-cloud-alibaba-examples/governance-example/label-routing-example)中已经完成接入工作，您无需再进行修改。**
    首先，修改pom.xml 文件，引入`spring-cloud-starter-alibaba-governance-routing`依赖。同时引入Spring Cloud Alibaba的`spring-cloud-starter-opensergo-adapter`模块
@@ -140,9 +141,11 @@ Route in 30.221.132.228: 18081,version is v1.
 
 ## OpenSergo 总结与展望
 在 Java 生态中， OpenSergo 紧接着会支持 Apache Dubbo 的流量路由与全链路灰度场景，同时 Sentinel2 会做一个能力的升级，能力实现从流量防护场景升级至支持微服务治理场景。在多语言生态中，OpenSergo 后续会探索 Dubbo、Kratos、CloudWego 以及 Mesh 等更多场景的治理能力支持与覆盖，与企业与社区共建微服务治理的最佳实践。
-![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2023/png/198743/1674961667994-62675049-ebd5-43b1-aa6b-43dfbd138577.png)
+
+![image](https://user-images.githubusercontent.com/43985911/216291123-324d065e-8ab1-4f7e-a076-c82e7436dfe1.png)
 
 OpenSergo 社区现在处于高速发展阶段，从微服务治理标准定义，到 Control Plane 的实现，再到 Java/Go/C++/Rust 等多语言 SDK 与治理功能的实现，再到各个微服务生态的整合与落地、最佳实践，都还有大量的演进工作，欢迎社区一起参与标准完善与代码贡献。
-![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2023/png/198743/1674961672980-e74d21a3-d1ed-433d-b9e1-fc4b00fc3a99.png)
+![image](https://user-images.githubusercontent.com/43985911/216291202-f498f728-1099-4fcf-ad5f-b63ba42b3860.png)
+
 
 OpenSergo 开源贡献小组正在火热招募贡献者。如果您有时间，有热情，有意愿，欢迎联系社区加入开源贡献小组，一起共同完善 OpenSergo 和 Sentinel，一起主导微服务治理技术与标准演进。Now let's start hacking!

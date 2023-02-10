@@ -54,7 +54,7 @@ export default function Home(): JSX.Element {
 
       <div className="msemap-container">
         <h3 style={{ fontSize: "2rem", fontWeight: 700, textAlign: "center" }}>
-          微服务全景图
+          <Translate>Microservice Ecosystem Landscape</Translate>
         </h3>
         <div id="mse-arc-container"></div>
       </div>

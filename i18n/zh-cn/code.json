@@ -233,5 +233,8 @@
   },
   "In the scenario of heterogeneous microservice system, DevOps can manage services in different languages and protocols with this unified specification.": {
     "message": "OpenSergo 以统一的一套配置/DSL 定义服务治理规则，面向多语言异构化架构，覆盖微服务框架及上下游关联组件。开发者无需关注各框架、语言的差异点，降低了异构化、全链路微服务治理管控的复杂度。"
+  },
+  "Microservice Ecosystem Landscape": {
+    "message": "微服务生态全景图"
   }
 }

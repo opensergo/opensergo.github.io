@@ -11,6 +11,14 @@
     "message": "快速开始",
     "description": "The label for category Quick Start in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Developer Guides": {
+    "message": "开发者指南",
+    "description": "The label for category Developer Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.SDK Docs": {
+    "message": "SDK 手册",
+    "description": "The label for category SDK CN in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Service Mesh": {
     "message": "多语言 Mesh 生态",
     "description": "The label for category Service Mesh CN in sidebar tutorialSidebar"

@@ -198,12 +198,12 @@ const config = {
     ],
     scripts: [
       {
-        src: '//g.alicdn.com/mamba/assets/0.0.11/mse-arc-ui.min.js',
+        src: '//g.alicdn.com/mamba/assets/0.0.19/mse-arc-ui.min.js',
       },
     ],
     stylesheets: [
       {
-        href: '//g.alicdn.com/mamba/assets/0.0.11/mse-arc-ui.min.css',
+        href: '//g.alicdn.com/mamba/assets/0.0.19/mse-arc-ui.min.css',
       },
     ],
 };

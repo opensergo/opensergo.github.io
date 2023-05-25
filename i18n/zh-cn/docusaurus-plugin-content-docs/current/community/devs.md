@@ -74,3 +74,4 @@ OpenSergo Committers:
 | GitHub 账号 | 名字 | 组织 | 角色 | 邮箱 |
 | --- | ----------- | --- | --- | --- |
 | [jnan806](https://github.com/jnan806) | 贾江南 | 中国电信集团 | Committer |  |
+| [karl-sy](https://github.com/karl-sy) | 苏宇 | Alibaba | Committer | |

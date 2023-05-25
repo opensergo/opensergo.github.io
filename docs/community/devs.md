@@ -63,3 +63,11 @@ Contributor is an individual who contributes to the OpenSergo project. The stand
 | [jialianglinjl](https://github.com/jialianglinjl) | Jialiang Lin | Alibaba | Maintainer | |
 | [sczyh30](https://github.com/sczyh30) | Eric Zhao | Alibaba | Maintainer | |
 | [panxiaojun233](https://github.com/panxiaojun233) | Shengwei Pan | Alibaba | Maintainer | |
+| [mlycore](https://github.com/mlycore) | Liyao Miao | SphereEx | Maintainer | |
+
+OpenSergo Committers:
+
+| GitHub id | Name | Organization | Community Role | E-mail |
+| --- | ----------- | --- | --- | --- |
+| [jnan806](https://github.com/jnan806) | Jiangnan Jia | China Telecom | Committer |  |
+| [karl-sy](https://github.com/karl-sy) | Yu Su | Alibaba | Committer | |

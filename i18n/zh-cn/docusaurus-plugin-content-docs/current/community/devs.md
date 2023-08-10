@@ -68,6 +68,7 @@ OpenSergo Maintainers:
 | [sczyh30](https://github.com/sczyh30) | 赵奕豪 | Alibaba | Maintainer | |
 | [panxiaojun233](https://github.com/panxiaojun233) | 泮圣伟 | Alibaba | Maintainer | |
 | [mlycore](https://github.com/mlycore) | 苗立尧 | SphereEx | Maintainer | |
+| [LearningGp](https://github.com/LearningGp) | 何家欢 | Alibaba | Maintainer | |
 
 OpenSergo Committers:
 

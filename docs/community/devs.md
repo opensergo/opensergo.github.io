@@ -64,6 +64,7 @@ Contributor is an individual who contributes to the OpenSergo project. The stand
 | [sczyh30](https://github.com/sczyh30) | Eric Zhao | Alibaba | Maintainer | |
 | [panxiaojun233](https://github.com/panxiaojun233) | Shengwei Pan | Alibaba | Maintainer | |
 | [mlycore](https://github.com/mlycore) | Liyao Miao | SphereEx | Maintainer | |
+| [LearningGp](https://github.com/LearningGp) | Arvin He | Alibaba | Maintainer | |
 
 OpenSergo Committers:
 

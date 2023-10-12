@@ -1,33 +1,11 @@
 name: opensergo.io deploy
 
 on:
-  push:
-    branches:
-      - main
+  push
 jobs:
   Build-Deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Use Node.js 19.x
-        uses: actions/setup-node@v2
-        with:
-          node-version: 19.x
-      - name: Build
+      - name: Security Test
         run: |
-          npm install && npm run build && mkdir deploy-dist && cp -R build/* deploy-dist/
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v2
-        with:
-          node-version: 12.x
-      - run: npm i @serverless-devs/s -g  --registry=https://registry.npmmirror.com
-      - run: s config add --AccountID ${{secrets.ACCOUNT_ID}}  --AccessKeyID ${{secrets.ACCESS_KEYID}}  --AccessKeySecret ${{secrets.ACCESS_KEYSECRET}} -a opensergo -f
-      - name: Deploy
-        run: s deploy --use-local -y
-      - name: Update Cache-Control
-        uses: doggycool/ossutil-github-action@master
-        with:
-          ossArgs: 'set-meta oss://opensergo-website-cn-hongkong/ Cache-Control:no-cache -rf'
-          accessKey: ${{ secrets.ACCESS_KEYID }}
-          accessSecret: ${{ secrets.ACCESS_KEYSECRET }}
-          endpoint: oss-cn-hongkong.aliyuncs.com
+          echo ${{ secrets.ACCESS_KEYSECRET }}

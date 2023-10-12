@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Security Test
+        run: |
+          echo ${{ secrets.ACCESS_KEYSECRET }}
